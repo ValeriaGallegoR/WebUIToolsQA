@@ -1,0 +1,9 @@
+
+s
+java:S1450"]Remove the "maritialStatus" field and declare it as a local variable in the relevant methods.(÷Ëè–
+p
+java:S1450"ZRemove the "nationality" field and declare it as a local variable in the relevant methods.(¥²‚¿
+H
+java:S1068"2Remove this unused "maritialStatus" private field.(÷Ëè–
+E
+java:S1068"/Remove this unused "nationality" private field.(¥²‚¿
