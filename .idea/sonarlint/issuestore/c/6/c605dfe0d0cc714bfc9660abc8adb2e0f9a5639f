@@ -1,12 +1,7 @@
 
-§
-java:S1845"Rename field "UPLOAD" to prevent any misunderstanding/clash with method "upload" defined in superclass "net.serenitybdd.core.pages.PageObject".(¼ŠØ—
-`
-java:S1128"CRemove this unused import 'org.openqa.selenium.JavascriptExecutor'.(Ë‚«»8Øáù¡Ë/
-]
-java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8Øáù¡Ë/
-a
-java:S1128
-"?Remove this unused import 'org.openqa.selenium.By.cssSelector'.(ñÂòøÿÿÿÿ8†Öí¡Ë/
+¦
+java:S1845}"Rename field "UPLOAD" to prevent any misunderstanding/clash with method "upload" defined in superclass "net.serenitybdd.core.pages.PageObject".(¼ŠØ—
 k
-java:S1192""UDefine a constant instead of duplicating this literal "//*[@id=\"btnSave\"]" 3 times.(ˆ»¬å
+java:S1192"UDefine a constant instead of duplicating this literal "//*[@id=\"btnSave\"]" 3 times.(ˆ»¬å
+ª
+java:S1192¢"†Define a constant instead of duplicating this literal "//body/div[@id='wrapper']/div[@id='content']/div[@id='dashBoardBuzz']" 4 times.(ƒ²ìÒøÿÿÿÿ8ô²£Ë/

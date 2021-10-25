@@ -2,12 +2,8 @@ package co.com.sofka.userinterfaces.orangepage;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-
 import static org.openqa.selenium.By.id;
 import static org.openqa.selenium.By.xpath;
-import static org.openqa.selenium.By.cssSelector;
 
 public class OrangePage extends PageObject {
     //For login
@@ -130,7 +126,6 @@ public class OrangePage extends PageObject {
             .the("upload image")
             .located(xpath("//*[@id=\"btnSave\"]"));
 
-
     // for Buzz module
 
     public static final Target BUZZ_MODULE = Target
@@ -147,7 +142,40 @@ public class OrangePage extends PageObject {
 
     public static final Target POST_BUTTON = Target
             .the("post button")
-            .located(xpath("//*[@id=\"page1\"]/p"));
+            .located(xpath("//body[1]/div[1]/div[3]/div[1]/div[6]/div[2]/div[1]/div[1]/p[1]/input[1]"));
+
+    public static final Target LIKE_BUTTON = Target
+            .the("like button")
+            .located(xpath("//div[@id='postBodyThirdRowNew']//div[@id='postLikebody_14']" +
+                    "//a[@id='postLikeno_14']//img[@id='postLike_14']"));
+
+    public static final Target EXPAND_BUTTON = Target
+            .the("expand button")
+            .located(xpath("//img[@id='shareViewMore_14']"));
+
+    public static final Target CLOSE_EXPAND = Target
+            .the("close expand button")
+            .located(xpath("//img[@id='shareViewMoreMod1_14']"));
+
+    public static final Target SHARE_BUTTON = Target
+            .the("share button")
+            .located(xpath("//body/div[@id='wrapper']/div[@id='content']/div[@id='dashBoardBuzz']" +
+                    "/div[@id='buzzContainer']/ul[@id='buzz']" +
+                    "/li[@id='postInList14']/div[@id='postBody']/div[@id='postBodyThirdRowNew']" +
+                    "/div[@id='postSharebody_14']/a[@id='postShareno_14']/img[1]"));
+
+    public static final Target COMENT_SHARE_BOX = Target
+            .the("coment share box")
+            .located(xpath("//body/div[@id='wrapper']/div[@id='content']/div[@id='dashBoardBuzz']" +
+                    "/div[@id='buzzContainer']/ul[@id='buzz']/li[@id='postInList14']" +
+                    "/div[@id='postBody']/div[@id='posthide_14']/div[1]/div[2]/form[1]/textarea[1]"));
+
+    public static final Target SHARE_RECOMENT_BUTTON = Target
+            .the("share recoment button")
+            .located(xpath("//body/div[@id='wrapper']/div[@id='content']/div[@id='dashBoardBuzz']" +
+                    "/div[@id='buzzContainer']/ul[@id='buzz']" +
+                    "/li[@id='postInList14']/div[@id='postBody']/div[@id='posthide_14']" +
+                    "/div[1]/div[2]/div[1]/input[1]"));
 
     //for validation
     public static final Target WELCOME_VALIDATION = Target
@@ -160,7 +188,7 @@ public class OrangePage extends PageObject {
 
     public static final Target INVALID_CREDENTIALS_VALIDATION = Target
             .the("validation credentials")
-            .located(xpath("//*[@id=\"spanMessage\"]"));
+            .located(xpath("//span[@id='spanMessage']"));
 
     public static final Target EMPTY_CREDENTIAL_VALIDATION = Target
             .the("validation empty credentials")
@@ -168,5 +196,8 @@ public class OrangePage extends PageObject {
 
     public static final Target COMENT_SUCESSFUL = Target
             .the("validation coment sucessful")
-            .located(xpath("//*[@id=\"postEmployeeName\"]"));
+            .located(xpath("//body/div[@id='wrapper']/div[@id='content']/div[@id='dashBoardBuzz']" +
+                    "/div[@id='buzzContainer']/ul[@id='buzz']/li[@id='postInList14']/div[@id='postBody']" +
+                    "/div[@id='postBodyFirstRow']/div[@id='postFirstRowColumnTwo']/div[@id='postEmployeeName']" +
+                    "/label[1]"));
 }

@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Red social orangePage" skipped="0" tests="1" time="28.74" timestamp="2021-10-24 04:42:10"><testcase name="modulo buzz red social"><failure message="&#10;Expected: &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">
-Expected: &lt;true&gt;
-     but: was &lt;false&gt;</failure><system-err>
-Expected: &lt;true&gt;
-     but: was &lt;false&gt;&#13;
-co.com.sofka.stepdefinition.orangepage.BuzzStepDefinition.elSistemaDeberaGuardarMiCambiosRealizados(BuzzStepDefinition.java:46)&#13;
-✽.el sistema debera guardar mi cambios realizados(file:///C:/SofkaU/Automatización/WEBUI_reto/webUIToolsQA/src/test/resources/features.orangepage/buzz.feature:9)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Red social orangePage" skipped="0" tests="1" time="15.93" timestamp="2021-10-24 06:53:22"><testcase name="modulo buzz red social"/></testsuite>

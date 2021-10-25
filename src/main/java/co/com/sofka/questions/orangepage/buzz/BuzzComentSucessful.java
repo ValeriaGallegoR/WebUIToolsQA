@@ -1,6 +1,5 @@
 package co.com.sofka.questions.orangepage.buzz;
 
-import co.com.sofka.questions.orangepage.myinfo.MyInfoSucessful;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 

@@ -1,2 +1,7 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Pruebas en la plataforma de Orange","Actualizar la informacion del usuario","SUCCESS","2021-10-24T14:37:08.8568574-05:00[America/Bogota]","0.0","52.76"
+"Pruebas en el login de la plataforma","inicio de sesion exitoso","SUCCESS","2021-10-24T18:52:13.0002759-05:00[America/Bogota]","0.0","13.47"
+"Pruebas en el login de la plataforma","inicio de sesion usuario invalido","SUCCESS","2021-10-24T18:52:27.4124712-05:00[America/Bogota]","0.0","8.11"
+"Pruebas en el login de la plataforma","inicio de sesion password invalido","SUCCESS","2021-10-24T18:52:36.534349-05:00[America/Bogota]","0.0","8.02"
+"Pruebas en el login de la plataforma","inicio de sesion no se introducen credenciales","SUCCESS","2021-10-24T18:52:45.4393333-05:00[America/Bogota]","0.0","6.7"
+"Pruebas en la plataforma de Orange","Actualizar la informacion del usuario","SUCCESS","2021-10-24T18:52:53.6390874-05:00[America/Bogota]","0.0","28.56"
+"Red social orangePage","modulo buzz red social","SUCCESS","2021-10-24T18:53:22.2037434-05:00[America/Bogota]","0.0","15.93"
